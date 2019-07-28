@@ -1,0 +1,52 @@
+a,
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.trending-topic__wrapper {
+    max-width: 100%;
+    /* overflow: auto; */
+    break-inside: auto;
+}
+
+.hash-trend {
+    color: blueviolet;
+    font-size: 0.8rem;
+}
+
+.hash-trend:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.wordwrap {
+    white-space: pre-wrap;
+    /* CSS3 */
+    white-space: -moz-pre-wrap;
+    /* Firefox */
+    white-space: -pre-wrap;
+    /* Opera <7 */
+    white-space: -o-pre-wrap;
+    /* Opera 7 */
+    word-wrap: break-word;
+    /* IE */
+}
+
+.profile_image {
+    height: 48px;
+    width: 48px;
+    border-radius: 24px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.utility-btn {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
